@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SOS</title>
+<link rel="stylesheet" href="css/NAS.css">
+
+</head>
+<body>
+<header>
+<div class = "">
+	<h1><a href = "main_page.php"><img src="images/logo.png" height="133"></a></h1>
+</div>
+</header>
+<form class="register-form" name="join" method="post" action="php/memberSave.php"> <!--membersave.php 파일로 회원정보저장-->
+	<div class="form">
+		<input type="text" placeholder="ID" name="id">
+		<input type="password" placeholder="Password" name="pw">
+		<input type="text" placeholder="Name" name="name">
+		<button type="submit">create</button>
+		<p class="message">Already registered? <a href="sign_in.html">Sign In</a></p>
+	</div>
+</form>
+</body>
+</html>

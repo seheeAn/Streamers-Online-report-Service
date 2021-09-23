@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    color: #ffffff;
+/*   font-family: 'ZCOOL QingKe HuangYou', cursive; */
+    box-sizing: border-box;
+}
+
+.fn-font {
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+ul {
+   list-style: none; /*앞에 동그라미가 사라짐*/
+}
+
+a {
+   text-decoration: none;  /*밑줄제거*/
+   outline: none; /*외곽선 제거*/
+}
+
+.container{
+/*    width:1440px;       원래 1440으로 작업했었는데 옆 여백때문에 바꿈.*/
+    margin:0 auto;
+}
+
+header {
+    width:100%;     /*부모인 container의 넓이를 가져옴*/
+    height:180px;
+    background-color: #00005a;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 5px solid #f4b183;
+}
+
+header > h1 {
+    margin-top :40px;
+    margin-left:100px;
+}
+
+header > nav {
+   width:800px;
+   height:100%;
+}
+
+.userMenu{
+    width:100%;
+    height: 30%;
+    margin-top:10px;
+    padding-left:600px;
+    padding-right:30px;
+    display: flex;
+}
+
+.userMenu li{
+    font-size:15px;
+    height: 25%;
+    display: flex;
+    margin :0 auto;
+    align-items:center;
+    padding-right: 13px;
+    border-right: 1px solid white;
+}
+
+.userMenu li:last-child{border-right:none;}  /*마지막 요소 오른쪽 바 삭제*/
+
+.mainMenu{
+    width:100%;
+    height:30%;
+    margin-top: 60px;
+    padding-right: 180px;
+    display: flex;
+}
+
+.mainMenu li {
+    font-size:25px;
+    height: 100%;
+    display: flex;
+    margin :0 auto;
+}
+
+.main{
+    width: 100%;
+    height: 520px;
+    margin-top: 50px;
+    background-image: url('../images/background.png');
+    background-size: cover;
+}
+
+.search{
+    width : 500px;
+    height: 100px;
+    margin-left: 525px;
+    padding-top:40px;
+}
+
+input{
+    font-size: 16px;
+    width: 425px;
+    padding : 10px;
+    border:0px;
+    background-color:#ffffff;
+    outline: none;
+    float:left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+button{
+    width: 70px;
+    height: 39px;
+    border:0px;
+    background: #f4b183;
+    outline: none;
+    float: left;
+    color:#ffffff;
+    font-size: 16px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.main > h1{
+    margin-left: 475px;
+    margin-top: 100px;
+}
