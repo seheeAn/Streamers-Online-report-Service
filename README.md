@@ -17,7 +17,7 @@ This is helpful when editors cut and edit videos to fit the subject at full leng
 
 
 ### Accuracy Test  
+![KakaoTalk_20230301_214600530](https://user-images.githubusercontent.com/49268298/222143295-753d39f4-d671-4a83-9517-e8262d9211c4.png)  
 We conducted a test to determine how high quality our function guarantee.  
 After analyzing the live video, we analyzed how much the information provided matches the actual generated highlights video.
-![KakaoTalk_20230301_214600530](https://user-images.githubusercontent.com/49268298/222143295-753d39f4-d671-4a83-9517-e8262d9211c4.png)  
-85% consistent
+
