@@ -1,6 +1,6 @@
 # Streamers-Online-report-Service
 
-채팅양이 크게 증가하는 부분을 영상의 하이라이트 구간으로 표시해주는 웹사이트 제작 프로젝트입니다.
+채팅량이 크게 증가하는 부분을 영상의 하이라이트 구간으로 표시해주는 웹사이트 제작 프로젝트입니다.
 
 ### 1. Highlight Analysis Service  
 ![KakaoTalk_20230301_213957002](https://user-images.githubusercontent.com/49268298/222142251-a617b857-5358-4db6-b7a2-6400d719971c.png)  
